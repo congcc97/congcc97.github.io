@@ -232,10 +232,11 @@ nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top ul li a {
     color: rgba(255,255,255,.7);
     font-weight: 700;
-    margin-left: 15px;
+    margin-left: 2px;
     margin-right: 15px;
     transition: 0.4s;
     text-transform: uppercase;
+    display: inline-flex;
 }
 
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top ul li a:hover {
@@ -253,6 +254,10 @@ body {
 @media (max-width: 576px){
     *{}
 
+    nav.menu-top ul.nav.navbar-nav.float-md-right {
+        display: inline-block;
+    }
+
     header.masthead p.text-faded {
         font-size: 22px;
     }
@@ -263,6 +268,12 @@ body {
 
     nav.navbar.navbar-light.bg-faded.navbar-fixed-top.menu-top a.navbar-brand {
         color: #f05f40;
+        display: inline-block;
+        line-height: inherit;
+        white-space: nowrap;
+        margin-left: 0px;
+        padding-top: 5px;
+        font-size: 20px;
     }
 
     nav.navbar.navbar-light.bg-faded.navbar-fixed-top.menu-top ul li a {

@@ -2,8 +2,9 @@
 
     $(window).scroll(function(event) {
         var vitribody = $('body, html').scrollTop();
+        var vitriShrink = $('h2.intro-text').offset().top;
 
-        if (vitribody >= 300) {
+        if (vitribody >= vitriShrink) {
             $('.menu-top').addClass('shrink');
         }
         else {

@@ -324,7 +324,6 @@ i.fa.fa-circle.fa-stack-2x.text-primary {
 masthead h1.text-uppercase.display-4.heading {}
 
 .masthead h2.intro-text.text-capitalize {
-    padding-top: 300px;
     color: #f8f9fa;
     font-size: 40px;
     font-style: italic;
@@ -337,6 +336,7 @@ masthead h1.text-uppercase.display-4.heading {}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    padding-top: 300px;
 }
 
 nav.navbar.navbar-dark.bg-faded.bg-inverse.menu-top {
@@ -355,4 +355,44 @@ font-family: 'Kaushan Script', cursive;
 
 @media (max-width: 576px) {
     * {}
+
+    div#exCollapsingNavbar2 {
+        padding-top:  35px;
+    }
+
+    nav.menu-top a.navbar-brand {
+        display: inline-block;
+        white-space: nowrap;
+        line-height: inherit;
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 27px;
+    }
+
+    nav.navbar.navbar-dark.bg-faded.bg-inverse.navbar-fixed-top.menu-top {
+        background: #212529!important;
+        height: auto!important;
+    }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+    * {}
+
+    ul.nav.navbar-nav.text-uppercase.ml-auto {
+        padding-top: 40px;
+    }
+
+    a.navbar-brand {
+        display: inline-block;
+        padding-top: 0px!important;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    nav.navbar.navbar-dark.bg-faded.bg-inverse.navbar-fixed-top.menu-top {
+        height: auto!important;
+        background: #212529!important;
+    }
+
+}
+

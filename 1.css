@@ -1,1 +1,78 @@
-*{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+
+p.text-muted {
+    margin-bottom: 80px;
+}
+
+hr {
+    max-width: 50px;
+    margin-bottom: 10px!important;
+    margin-top: 10px!important;
+    border-top: 3px solid #a1b1bc;
+    margin: auto;
+}
+
+h2.title {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #2f2933;
+}
+
+h4.question {
+    color: #04bfbf;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+}
+
+#banner a.btn.btn-xl.btn-primary {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 40px;
+    font-size: 18px;
+}
+
+#banner h4.sub-heading {
+    margin-bottom: 40px;
+    margin-top: 15px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+#banner h1.heading {
+    font-size: 108px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+}
+
+h1.heading {}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top {
+    background: transparent;
+}
+
+div#banner {
+    background-image: url(images/bg-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 250px;
+    padding-bottom: 125px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif; */

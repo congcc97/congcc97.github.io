@@ -4,6 +4,75 @@
     box-sizing: border-box;
 }
 
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink ul li a.nav-link.active {
+    color: #04bfc3!important;
+}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink a.navbar-brand {
+    color: #ffffff!important;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink a.navbar-brand:hover{
+    color: #04bfbf!important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .active>.nav-link:focus, .navbar-light .navbar-nav .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.active:focus, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.open, .navbar-light .navbar-nav .nav-link.open:focus, .navbar-light .navbar-nav .nav-link.open:hover, .navbar-light .navbar-nav .open>.nav-link, .navbar-light .navbar-nav .open>.nav-link:focus, .navbar-light .navbar-nav .open>.nav-link:hover {
+    color: white;
+}
+
+nav.menu-top a.nav-link:hover {
+    color: #04bfbf!important;
+}
+
+nav.menu-top a.navbar-brand:hover {
+    color: #04bfbf!important;
+}
+
+nav.menu-top a.nav-link, a.navbar-brand {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 22px;
+    transition: 0.4s all;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-toggler {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+#footer small {
+    font-size: 16px;
+}
+
+#about{
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+#portfolio {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.bg-gray {
+    background-color: #ecf0f1;
+}
+
+#footer {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background: #ecf0f1;
+}
+
 #portfolio .project-name {
     padding-top: 80px;
 }
@@ -31,6 +100,7 @@
     cursor: pointer;
     max-width: 400px;
     transition: 0.4s all;
+    margin-bottom: 30px;
 }
 
 #portfolio a.portfolio-link:hover .portfolio-hover {
@@ -39,7 +109,7 @@
 }
 
 #contact {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     padding-top: 150px;
 }
 
@@ -141,6 +211,7 @@ h4.question {
 
 #banner a.btn.btn-xl.btn-primary:hover {
     background: #000000b8;
+    color:#13d7d7;
 }
 
 #banner h4.sub-heading {
@@ -164,6 +235,26 @@ h1.heading {}
 
 nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top {
     background: transparent;
+}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink {
+    background: #2f2933;
+    transition: 0.4s all;
+}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink ul li a {
+    color: #ffffff!important;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink ul li a:hover {
+    color: #13d7d7!important;
+}
+
+nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink ul {
 }
 
 div#banner {

@@ -35,7 +35,7 @@
         $('body, html').animate({scrollTop:$('#contact').offset().top}, 800);
     });
 
-
+    new WOW().init();
 
 })
 

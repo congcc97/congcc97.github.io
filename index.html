@@ -4,17 +4,22 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+    <script src="vendor/jquery-3.3.1.min.js"></script>
+    <script src="vendor/wow.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=vietnamese" rel="stylesheet">
 	<link rel="stylesheet" href="vendor/bootstrap.css">
 	<link rel="stylesheet" href="vendor/font-awesome.css">
+    <link rel="stylesheet" href="vendor/animate.css">
+    <link rel="stylesheet" href="1.css">
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <nav class="navbar navbar-light bg-faded menu-top navbar-fixed-top">
+    <nav class="navbar navbar-light bg-faded menu-top navbar-fixed-top wow lightSpeedIn" data-wow-delay="0.8s">
         <div class="container">
 
           <a class="navbar-brand" href="#">Congcc97</a>
 
-          <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+          <button class="navbar-toggler hidden-sm-up float-xs-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
           </button>
 
           <div class="collapse navbar-toggleable-xs float-md-right" id="exCollapsingNavbar2">
@@ -40,9 +45,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-xs-center">
-                    <h1 class="heading">Hi, I'm Cong!</h1>
-                    <h4 class="sub-heading">Front-end developer intern</h4>
-                    <a href="#contact" class="btn btn-xl btn-primary" id="n5">give me a job!</a>
+                    <h1 class="heading wow fadeInDownBig" data-wow-delay="0.3s"">Hi, I'm Cong!</h1>
+                    <h4 class="sub-heading wow fadeInUpBig" data-wow-delay="0.5s"">Front-end developer intern</h4>
+                    <a href="#contact" class="btn btn-xl btn-primary wow rollIn" data-wow-delay="0.6s" id="n5">give me a job!</a>
 
                 </div>
 
@@ -56,7 +61,7 @@
     <div id="about" class="bg-gray">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 text-xs-center">
+                <div class="col-md-12 text-xs-center wow bounceInDown" data-wow-delay="0.2s">
                     <h4 class="question">A little about my self</h4>
                     <h2 class="title">ABOUT</h2>
                     <hr>
@@ -66,15 +71,15 @@
 
             <div class="row">
                 <div class="col-md-4 push-md-2 col-sm-6">
-                    <img src="images/about.JPG" alt="" class="img-fluid">
+                    <img src="images/about.JPG" alt="" class="img-fluid wow bounceInLeft" data-wow-delay="0.4s">
                 </div>
 
                 <div class="col-md-5 push-md-2 col-sm-6">
-                    <h2>TRAN THANH CONG</h2>
-                    <p>Birthday: 21/12/1997</p>
-                    <p>Education: 2nd year student at HUTECH University of Technology</p>
-                    <p>Hobbies: Reading, Swimming</p>
-                    <p>I'm careful and hard-working person. I'm eager to learn new things and willing to work in team.</p>
+                    <h2 class="wow bounceInRight" data-wow-delay="0.4s">TRAN THANH CONG</h2>
+                    <p class="wow bounceInRight" data-wow-delay="0.5s">Birthday: 21/12/1997</p>
+                    <p class="wow bounceInRight" data-wow-delay="0.6s">Education: 2nd year student at HUTECH University of Technology</p>
+                    <p class="wow bounceInRight" data-wow-delay="0.7s">Hobbies: Reading, Swimming, Traveling...</p>
+                    <p class="wow bounceInRight" data-wow-delay="0.8s">I'm careful and hard-working person. I'm eager to learn new things and willing to work in team.</p>
                 </div>
 
             </div>
@@ -87,10 +92,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-xs-center">
-                    <h4 class="question">Why choose me ?</h4>
-                    <h2 class="title">check our nice skills</h2>
+                    <h4 class="question wow fadeInDownBig" data-wow-delay="0.5s">Why choose me ?</h4>
+                    <h2 class="title wow fadeInDownBig" data-wow-delay="0.4s">check our nice skills</h2>
                     <hr>
-                    <p class="text-muted">
+                    <p class="text-muted wow fadeInDown" data-wow-delay="0.3s">
                         I self learn some basic skills on facebook from master <a href="https://www.facebook.com/nddviet" target="_blank">NGUYEN DUC VIET</a>. I would like to put into practice what I learned, and I want to learn more skills example: teamwork, scrum model, agile model, ...etc. Learn more Javascript frameworks: Angularjs, Vue.js, React js .
                     </p>
                 </div>
@@ -99,38 +104,45 @@
             <div class="row">
                 <div class="col-md-8 push-md-2">
                         <!-- HTML5 -->
-                    <p style="width:75%" data-value="75">HTML5</p>
-                        <progress max="100" value="75" class="html5">
-                            <div class="progress-bar">
-                                <span style="width: 75%">80%</span>
-                            </div>
-                        </progress>
+                    <div class="html5 wow fadeInLeftBig" data-wow-delay="0.6s">
+                        <p style="width:75%" data-value="75">HTML5</p>
+                            <progress max="100" value="75" class="html5">
+                                <div class="progress-bar">
+                                    <span style="width: 75%">80%</span>
+                                </div>
+                            </progress>
+                    </div>
 
                         <!-- CSS3 -->
-                    <p style="width:65%" data-value="65">CSS3</p>
-                        <progress max="100" value="65" class="css3">
-                            <div class="progress-bar">
-                                <span style="width: 65%">65%</span>
-                            </div>
-                        </progress>
+                    <div class="css3 wow fadeInRightBig" data-wow-delay="0.7s">
+                        <p style="width:65%" data-value="65">CSS3</p>
+                            <progress max="100" value="65" class="css3">
+                                <div class="progress-bar">
+                                    <span style="width: 65%">65%</span>
+                                </div>
+                            </progress>
+                    </div>
+
 
                         <!-- jQuery -->
-                    <p style="width:45%" data-value="45">jQuery</p>
-                        <progress max="100" value="45" class="jquery">
-                            <div class="progress-bar">
-                                <span style="width: 45%">45%</span>
-                            </div>
-                        </progress>
-
+                    <div class="jQuery wow fadeInLeftBig" data-wow-delay="0.8s">
+                        <p style="width:45%" data-value="45">jQuery</p>
+                            <progress max="100" value="45" class="jquery">
+                                <div class="progress-bar">
+                                    <span style="width: 45%">45%</span>
+                                </div>
+                            </progress>
+                    </div>
 
                     <!-- Responsive -->
-                    <p style="width:35%" data-value="35">Responsive Mobile</p>
-                        <progress max="100" value="35" class="responsive">
-                            <div class="progress-bar">
-                                <span style="width: 35%">35%</span>
-                            </div>
-                        </progress>
-
+                    <div class="responsive wow fadeInRightBig" data-wow-delay="0.9s">
+                        <p style="width:35%" data-value="35">Responsive Mobile</p>
+                            <progress max="100" value="35" class="responsive">
+                                <div class="progress-bar">
+                                    <span style="width: 35%">35%</span>
+                                </div>
+                            </progress>
+                    </div>
                 </div>
 
             </div> <!-- end row -->
@@ -143,15 +155,15 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-xs-center">
-                    <h4 class="question">Check Our Awesome Work</h4>
-                    <h2 class="title">FEATURED PORTFOLIO</h2>
+                    <h4 class="question wow fadeInDownBig" data-wow-delay="0.5s">Check Our Awesome Work</h4>
+                    <h2 class="title wow fadeInDownBig" data-wow-delay="0.4s">FEATURED PORTFOLIO</h2>
                     <hr>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eius, in laudantium dolores, quam veritatis.</p>
+                    <p class="text-muted wow fadeInDown" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eius, in laudantium dolores, quam veritatis.</p>
                 </div>
             </div> <!-- end row -->
 
             <div class="row">
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 wow bounceInLeft" data-wow-delay="0.7s">
                     <a href="https://congcc97.github.io/portfolio/Agency/index.html" target="_blank" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="project-name">Agency</div>
@@ -162,7 +174,7 @@
 
                 </div> <!-- end col -->
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 wow bounceInUp" data-wow-delay="0.8s">
                     <a href="https://congcc97.github.io/portfolio/Creative/index.html" class="portfolio-link" target="_blank">
                         <div class="portfolio-hover">
                             <div class="project-name">Creative</div>
@@ -173,7 +185,7 @@
 
                 </div> <!-- end col -->
 
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 wow bounceInRight" data-wow-delay="0.9s">
                     <a href="" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="project-name">Work in progress</div>
@@ -196,41 +208,41 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-xs-center">
-                    <h4 class="question">Get in Touch With Me</h4>
-                    <h2 class="title">CHECK OUR SOCIAL</h2>
+                    <h4 class="question wow fadeInDownBig" data-wow-delay="0.5s">Get in Touch With Me</h4>
+                    <h2 class="title wow fadeInDownBig" data-wow-delay="0.4s">CHECK OUR SOCIAL</h2>
                     <hr>
-                    <p class="text-muted">My address: 15/25 Ba Huyen Thanh Quan street, Binh An Ward, Di An town, Binh Duong province .</p>
+                    <p class="text-muted wow fadeInDown" data-wow-delay="0.3s">My address: 15/25 Ba Huyen Thanh Quan street, Binh An Ward, Di An town, Binh Duong province .</p>
                 </div>
             </div> <!-- end row -->
             <div class="row">
                 <div class="col-sm-12 mx-auto text-xs-center">
                     <ul class="list-inline">
-                        <li class="list-inline-item">
+                        <li class="list-inline-item wow bounceInUp" data-wow-delay="0.7s">
                             <a href="https://www.facebook.com/congcc97" target="_blank" class="social-fb">
                                 <i class="fa fa-3x fa-facebook"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li class="list-inline-item wow bounceInUp" data-wow-delay="0.8s">
                             <a href="https://www.linkedin.com/in/công-trần-4b4461146" target="_blank" class="social-linkedin">
                                 <i class="fa fa-3x fa-linkedin"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li class="list-inline-item wow bounceInUp" data-wow-delay="0.9s">
                             <a href="" class="social-pinterest">
                                 <i class="fa fa-3x fa-pinterest"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li class="list-inline-item wow bounceInUp" data-wow-delay="1s">
                             <a href="" class="social-instargram">
                                 <i class="fa fa-3x fa-instagram"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li class="list-inline-item wow bounceInUp" data-wow-delay="1.1s">
                             <a href="" class="social-phone">
                                 <i class="fa fa-3x fa-phone"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
+                        <li class="list-inline-item wow bounceInUp" data-wow-delay="1.2s">
                             <a href="" class="social-mail">
                                 <i class="fa fa-3x fa-envelope"></i>
                             </a>
@@ -258,7 +270,6 @@
     </div> <!-- end footer -->
 
     <!-- //my script -->
-    <link rel="stylesheet" href="1.css">
     <script type="text/javascript" src="1.js"></script>
 
 

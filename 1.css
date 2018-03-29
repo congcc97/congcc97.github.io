@@ -4,6 +4,66 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 576px) {
+    *{}
+
+    li.nav-item.active {
+        margin-top: 5px;
+    }
+
+    #contact li.list-inline-item {
+        margin-bottom: 20px;
+    }
+
+    button.navbar-toggler.hidden-sm-up.float-xs-right {
+        border: 1px solid white;
+    }
+
+    .navbar-toggler {
+        width: 2.5em;
+        height: 2em;
+        padding: .5rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background: #ecf0f1 no-repeat center center;
+        -webkit-background-size: 24px 24px;
+        background-size: 24px 24px;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+
+    nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink a.navbar-brand {
+        margin-top:0px!important;
+        font-weight: inherit!important;
+    }
+
+    nav.menu-top ul.nav.navbar-nav {
+        padding-top: 35px;
+    }
+
+    nav.menu-top ul.nav.navbar-nav.shrink {
+        padding-top: 50px;
+        display: inline-block;
+        transition: 0.4s all;
+    }
+
+    nav.menu-top ul.nav.navbar-nav>li {
+        border-bottom: 1px solid;
+    }
+
+    button.navbar-toggler.hidden-sm-up.float-xs-right {
+    }
+
+    nav.menu-top a.navbar-brand {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top {
+        background: #2f2933!important;
+    }
+}
+
 nav.navbar.navbar-light.bg-faded.menu-top.navbar-fixed-top.shrink ul li a.nav-link.active {
     color: #04bfc3!important;
 }
@@ -74,12 +134,12 @@ nav.menu-top a.nav-link, a.navbar-brand {
 }
 
 #portfolio .project-name {
-    padding-top: 80px;
+    padding-top: 90px;
 }
 
 #portfolio .portfolio-hover {
     position: absolute;
-    background: rgba(18, 17, 25, 0.74);
+    background: rgba(4, 191, 195, 0.85);
     width: 100%;
     height: 100%;
     text-align: center;
@@ -229,7 +289,9 @@ h4.question {
     margin-bottom: 0px;
     letter-spacing: 0px;
     color: #ffffff;
+    transition: 0.4s all;
 }
+
 
 h1.heading {}
 
@@ -500,3 +562,5 @@ p[data-value]:after {
 }
 
 /* Now we are good to duplicate html code for other skills and then add the css code for the new skill based on data-skill */
+
+/* animation */
